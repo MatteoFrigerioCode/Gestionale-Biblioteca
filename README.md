@@ -18,6 +18,6 @@ Il programma permette ad un "bibliotecario" di gestire l'intero processo di vita
 
 Il focus del progetto non era l'interfaccia, bensì la **robustezza** e **l'efficienza** del programma stesso.
 **Efficienza$O(1)$:** Il cuore del sistema si basa su due `HashMap` (una per i membri mappando un ID, l'altra per i libri mappando un ISBN) per garantire che ogni azione di ricerca, aggiunta o rimozione sia **istantanea ($O(1)$)**, anche con milioni di voci.
-**Robustezza dell'Input** Tutta l'iterazione con l'utente è gestita in maniera robusta. Il codice gestisce `InputMismatchException` (se l'utente scrive una stringa non numerica), `DateTimeException` (se l'utente scrive una data non valida), ID non trovati e numeri non positivi,**gestione del buffer dello `Scanner`** (gestendo il bug `nextInt()`/`nextLine()`.
-**Logica anti-corruzione** Il sistema utilizza un design bidirezionale. Ogni operazione di prestito e restituzione esegue un **doppio controllo** per prevenire la desincronizzazione dei dati.
-**Design modulare** Il codice è separato in classi e metodi statici "helper", ognuno con una singola responsabilità.
+**Robustezza dell'Input:** Tutta l'iterazione con l'utente è gestita in maniera robusta. Il codice gestisce `InputMismatchException` (se l'utente scrive una stringa non numerica), `DateTimeException` (se l'utente scrive una data non valida), ID non trovati e numeri non positivi,**gestione del buffer dello `Scanner`** (gestendo il bug `nextInt()`/`nextLine()`.
+**Logica anti-corruzione:** Il sistema utilizza un design bidirezionale. Ogni operazione di prestito e restituzione esegue un **doppio controllo** per prevenire la desincronizzazione dei dati.
+**Design modulare:** Il codice è separato in classi e metodi statici "helper", ognuno con una singola responsabilità.
