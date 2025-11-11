@@ -7,12 +7,12 @@ Questo è un programma gestionale a riga di comando (CLI) scritto in Java puro. 
 # Funzionalità principali
 
 Il programma permette ad un "bibliotecario" di gestire l'intero processo di vita dei libri e dei membri all'interno della sua biblioteca, potendo utilizzare funzioni come:
-** Aggiungere libri:** Registra nuovi libri nel catalogo, tramite la ricezione di codici ISBN (su cui viene fatto un controllo per verificare che non appartengono già all'archivio).
-** Aggiungere membri:** Registra nuovi membri, fornendo ad ognuno un codice identificativo (ID) univoco.
-** Gestire prestiti:** Associa un libro ad un membro, gestendo i casi limite (es: viene richiesto un libro che è già in prestito ad un altro membro).
-** Gestire Restituzioni:** Gestisce la restituzione di un libro, con un double check per assicurarsi che i dati non siano stati corrotti.
-** Ricercare Dati:** Trovare i libri in prestito ad un membro specifico e trovare a chi è in prestito un libro specifico, con controlli sulla validità del libro e del membro inseriti.
-** Visualizzare l'intero archivio:** Visualizzare l'intero elenco di libri in possesso della libreria e l'intero elenco di membri registrati.
+**Aggiungere libri:** Registra nuovi libri nel catalogo, tramite la ricezione di codici ISBN (su cui viene fatto un controllo per verificare che non appartengono già all'archivio).
+**Aggiungere membri:** Registra nuovi membri, fornendo ad ognuno un codice identificativo (ID) univoco.
+**Gestire prestiti:** Associa un libro ad un membro, gestendo i casi limite (es: viene richiesto un libro che è già in prestito ad un altro membro).
+**Gestire Restituzioni:** Gestisce la restituzione di un libro, con un double check per assicurarsi che i dati non siano stati corrotti.
+**Ricercare Dati:** Trovare i libri in prestito ad un membro specifico e trovare a chi è in prestito un libro specifico, con controlli sulla validità del libro e del membro inseriti.
+**Visualizzare l'intero archivio:** Visualizzare l'intero elenco di libri in possesso della libreria e l'intero elenco di membri registrati.
 
 # Design tecnico e punti chiave
 
